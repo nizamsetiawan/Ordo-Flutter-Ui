@@ -1,8 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-
-import '../components/gen/assets.gen.dart';
-import '../components/gen/colors.gen.dart';
+import 'package:ordo_flutter/presentation/components/gen/assets.gen.dart';
+import 'package:ordo_flutter/presentation/components/gen/colors.gen.dart';
 
 class AppBottomNavBar extends StatelessWidget {
   const AppBottomNavBar({super.key, required this.tabsRouter});
